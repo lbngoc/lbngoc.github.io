@@ -6,17 +6,22 @@ title: Ngoc L.B's CV
 A Fullstack Developer based at Saigon, VN.
 
 <div id="webaddress">
-<a href="mailto:contact@ngoclb.com">contact@ngoclb.com</a>
+<i class="fa fa-envelope"></i> <a href="mailto:contact@ngoclb.com">contact@ngoclb.com</a>
 |
 <i class="fa fa-github"></i> <a href="http://github.com/lbngoc">lbngoc</a>
+|
+<i class="fa fa-facebook"></i> <a href="http://facebook.com/ngoclb.blog">ngoclb.blog</a>
 </div>
 
+<i class="fa fa-download"></i> **[Download My Résumé](cv.pdf)**
 
 ## About
 
 My full name is Luong Bao Ngoc, a full stack web developer with 5 years of experience in web technologies (MVC, PHP, WordPress) and over 2 years of experiences in mobile app development (Ionic, NativeScript), with good knowledge of _Database Design_, _Design Pattern_, _Object-Oriented Analysis and Design_.
 
 I really like web standards and technologies, and I have spent most of my time to work with them (HTML5, Bootstrap, jQuery, Angular, Vue, etc…) respectively to cultivate deeper my knowledge in these standards. I always want to make all my projects more beautiful, useful and steady…
+
+At current, I am also the owner of website **[www.ngoclb.com](https://www.ngoclb.com)** and working as a part-time freelancer.
 
 ## Employment
 
@@ -32,13 +37,13 @@ __TMA Solutions__ Junior Developer
 ## Technical skills
 
 * PHP
-* WordPress, Drupal
 * Java
+* WordPress, Drupal
 * Javascript (incl. Typescript, Angular)
-* Framework (.NET, Yii, Laravel, Rails, Zend...)
 * HTML and CSS (incl. SASS, LESS)
-* LaTeX
+* Framework (.NET, Yii, Laravel, Rails, Zend...)
 * Bash
+* LaTeX
 * Git / Mercurial
 * UNIX
 * Docker, Vagrant
@@ -96,6 +101,32 @@ Quran is a book reader application, using local data (images + music). It like a
 
 > `Java`, `Android`
 
+## Open Source Projects
+
+### Press2Blogger
+
+Press2Blogger is a node command line application (CLI) that could help you move or backup your current website from Wordpress to Blogger.
+
+_npm: [https://www.npmjs.com/package/press2blogger](https://www.npmjs.com/package/press2blogger)_
+
+> `Node`, `oclif`
+
+### WP PleaseWait
+
+WP PleaseWait is a wordpress plugin for [PleaseWait](https://pathgather.github.io/please-wait) library to display beautiful loading screen for your WordPress site.
+
+_Github: [https://github.com/lbngoc/wp-please-wait](https://github.com/lbngoc/wp-please-wait)_
+
+> `WordPress`
+
+### post2Groups (FB MassPost)
+
+This is an extension for Google Chrome, allow user post a message with link or media attachments to multiple groups on Facebook.
+
+_Demo: [https://www.youtube.com/watch?v=sn0YlWjR7yI](https://www.youtube.com/watch?v=sn0YlWjR7yI)_
+
+> `Chrome Extension`
+
 ## Education
 
 `2014-2014`
@@ -108,9 +139,8 @@ Bachelor Degree of Software Engineering
 ## Links
 
 <!-- fa are fontawesome, ai are academicons -->
-* <i class="fa fa-envelope"></i> <a href="mailto:contact@ngoclb.com">contact@ngoclb.com</a><br />
-* <i class="fa fa-github"></i> <a href="http://github.com/lbngoc">lbngoc</a><br />
-* <i class="fa fa-twitter"></i> <a href="http://twitter.com/ngoclb_com">ngoclb_com</a><br />
+* <i class="fa fa-github"></i> <a href="http://github.com/lbngoc">Github</a><br />
+* <i class="fa fa-twitter"></i> <a href="http://twitter.com/ngoclb_com">Twitter</a><br />
 * <i class="fa fa-linkedin"></i> <a href="https://www.linkedin.com/in/ngoclb/">LinkedIn</a>
 * <i class="fa fa-stack-overflow"></i> <a href="https://stackoverflow.com/users/4715089/ng%E1%BB%8Dc-l%C6%B0%C6%A1ng">StackOverflow</a>
 

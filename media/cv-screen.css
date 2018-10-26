@@ -19,16 +19,13 @@ time, mark, audio, video {
   margin: 0;
   padding: 0;
   border: 0;
-  font-size: 1rem;
+  font-size: 16px;
   vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
   display: block;
-}
-html {
-  font-size: 14px;
 }
 body {
   line-height: 1;
@@ -87,8 +84,6 @@ p code {
 blockquote p code {
   position: initial;
   left: auto;
-  font-size: 75%;
-  color: #1D49A0;
 }
 
 ul {
@@ -97,9 +92,9 @@ ul {
   width: 65%;
   margin-bottom: 1.5em;
   margin-top: 1em;
-  columns: 3;
-  -webkit-columns: 3;
-  -moz-columns: 3;
+  columns: 2;
+  -webkit-columns: 2;
+  -moz-columns: 2;
 }
 
 
@@ -175,6 +170,7 @@ a:hover {
 
 #webaddress {
   margin-top: 0em;
+  margin-bottom: 0.8em;
   position: relative;
   margin-left: 25%;
   color: #aaa;
