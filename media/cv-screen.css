@@ -64,6 +64,7 @@ body {
 p {
   position: relative;
   left: 25%;
+  font-size: 100%;
   margin-bottom: 0.7em;
   margin-right: 0;
   width: 65%;
@@ -78,7 +79,7 @@ code {
 
 p code {
   position: absolute;
-  left: -10%;
+  left: -12%;
 }
 
 blockquote p code {
@@ -142,7 +143,7 @@ h2 {
   /* color: #a00; */
   color: #1D49A0;
   margin-top: 2em;
-  margin-bottm: .5em;
+  margin-bottom: .5em;
   position: relative;
   /*top: 1.4em;*/
   text-align: right;
@@ -152,9 +153,9 @@ h2 {
 h3 {
   color: #F07415;
   font-size: 1em;
-  line-height: 2em;
+  line-height: 1.2em;
   position: relative;
-  top: 1.7em;
+  top: 1em;
   text-align: right;
   width: 15%;
 }
@@ -207,12 +208,38 @@ strong {
     width: 65%;
 }
 
-@media only screen and (max-width: 480px) {
+#main {
+  min-width: 768px;
+  position: relative;
+  background-image: url("https://avatars1.githubusercontent.com/u/5821069?s=150");
+  /* background-size: 15% auto; */
+  background-position: 5.5% 0;
+  background-position: calc(15% - 75px) 0;
+  background-repeat: no-repeat;
+  z-index: 999;
+}
+
+html:before {
+  position: fixed;
+  display: block;
+  content: ' ';
+  top: 0;
+  left: 0;
+  width: 24.5%;
+  height: 100%;
+  background-color: azure;
+}
+
+@media only screen and (max-width: 1024px) {
+  p code {
+    left: -15%;
+  }
+}
+@media only screen and (max-width: 768px) {
   h2 {
     margin-bottom: 1em;
   }
   p code {
     left: -22%;
-    top: .5em;
   }
 }
