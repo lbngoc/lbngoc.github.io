@@ -25,7 +25,7 @@ At current, I am also the owner of website **[www.ngoclb.com](https://www.ngoclb
 
 ## Employment
 
-`2016-` 
+`2016-`
 __CarMD.com Corp.__ Mobile Developer
 
 `2014-2016`
@@ -79,7 +79,7 @@ StoryWoolf is a new publishing platform and digital marketplace where user can b
 
 ### Hulo
 
-Hulo is an advertising application using mobile and beacon. In backend, administrator can import multiple beacons and assign to the Hulo's customer (called Hulo client). Hulo Client can login to Hulo backend and assign beacon to product so that his/her customer receive a notification and see  he product’s information via the mobile application while he/she is near the product/beacon. 
+Hulo is an advertising application using mobile and beacon. In backend, administrator can import multiple beacons and assign to the Hulo's customer (called Hulo client). Hulo Client can login to Hulo backend and assign beacon to product so that his/her customer receive a notification and see  he product’s information via the mobile application while he/she is near the product/beacon.
 
 > `PHP (Yii2 Framework)`, `iOS`, `Android`
 
@@ -109,7 +109,7 @@ Press2Blogger is a node command line application (CLI) that could help you move 
 
 _npm: [https://www.npmjs.com/package/press2blogger](https://www.npmjs.com/package/press2blogger)_
 
-> `Node`, `oclif`
+> `Node`, `oclif`, `Google SDK`
 
 ### WP PleaseWait
 
@@ -125,7 +125,15 @@ This is an extension for Google Chrome, allow user post a message with link or m
 
 _Demo: [https://www.youtube.com/watch?v=sn0YlWjR7yI](https://www.youtube.com/watch?v=sn0YlWjR7yI)_
 
-> `Chrome Extension`
+> `Chrome Extension`, `Facebook SDK`
+
+### Mobile App Release Page Layout
+
+A simple project to display release versions of a mobile app, built with Vue.js and Semantic UI
+
+_Demo: [https://lbngoc.github.io/simple-layout-app-release-packages](https://lbngoc.github.io/simple-layout-app-release-packages)_
+
+> `Vue`, `Semantic UI`
 
 ## Education
 
