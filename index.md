@@ -21,7 +21,7 @@ My full name is Luong Bao Ngoc, a full stack web developer with 5 years of exper
 
 I really like web standards and technologies, and I have spent most of my time to work with them (HTML5, Bootstrap, jQuery, Angular, Vue, etc…) respectively to cultivate deeper my knowledge in these standards. I always want to make all my projects more beautiful, useful and steady…
 
-At current, I am also the owner of website **[www.ngoclb.com](https://www.ngoclb.com)** and working as a part-time freelancer.
+At current, I am also the owner of an IT blog called **[ngoclb.com](//ngoclb.com)** and working as a part-time freelancer.
 
 ## Employment
 
