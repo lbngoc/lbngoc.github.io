@@ -143,7 +143,7 @@ _Demo: [https://lbngoc.github.io/simple-layout-app-release-packages](https://lbn
 ## Education
 
 `2014-2014`
-__SDC, TMA Solutions__ (_HCMC, VN_)
+__SDC, TMA Solutions__ (_Ho Chi Minh City, VN_)
 
 `2008-2013`
 __University of Da Lat__ (_Da Lat City, VN_)

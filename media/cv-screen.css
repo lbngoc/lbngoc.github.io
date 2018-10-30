@@ -218,7 +218,7 @@ strong {
   z-index: 999;
 }
 
-html:before {
+body:before {
   position: fixed;
   display: block;
   content: ' ';
@@ -232,7 +232,7 @@ html:before {
 /* Wide screen */
 @media only screen and (min-width: 1366px) {
   #main { background-position-x: 20%; background-position-x: calc(25% - 75px); }
-  html:before { width: 34.5% }
+  body:before { width: 34.5% }
   p, ul, h1, .footer { left: 35%; width: 55% }
   h2 , h3 { width: 25% }
   ul { left: 35%}

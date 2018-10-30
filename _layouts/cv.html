@@ -8,17 +8,26 @@
   <meta property="og:image" content="https://avatars1.githubusercontent.com/u/5821069" />
   <meta name="viewport" id="viewport">
   <script async type="text/javascript" src="media/head.js"></script>
-  <noscript id="deferred-styles">
-    <link href="media/cv-screen.css" type="text/css" rel="stylesheet" media="screen">
-    <link href="media/cv-print.css" type="text/css" rel="stylesheet" media="print">
-    <!-- imports -->
-    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
-    <link href='//fonts.googleapis.com/css?family=Tillana:700|Inconsolata:400,700' rel='stylesheet'
-      type='text/css'>
-  </noscript>
+  <style type="text/css">
+    .fade-in {
+      opacity: 1;
+      animation-name: fadeInOpacity;
+      animation-iteration-count: 1;
+      animation-timing-function: ease-in;
+      animation-duration: 2.5s;
+    }
+    @keyframes fadeInOpacity {
+      0% {
+        opacity: 0;
+      }
+      100% {
+        opacity: 1;
+      }
+    }
+  </style>
 </head>
 
-<body>
+<body class="fade-in">
   <div id="main">
     <div id="content">
       {{ content }}
@@ -31,6 +40,14 @@
     Hosting by <a href="https://github.com/lbngoc/lbngoc.github.io">Github</a>.
   </div>
 
+  <!-- https://developers.google.com/speed/docs/insights/OptimizeCSSDelivery -->
+  <noscript id="deferred-styles">
+    <link href="media/cv-screen.css" type="text/css" rel="stylesheet" media="screen" />
+    <link href="media/cv-print.css" type="text/css" rel="stylesheet" media="print" />
+    <!-- imports -->
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" />
+    <link href='//fonts.googleapis.com/css?family=Tillana:700|Inconsolata:400,700' rel='stylesheet' type='text/css' />
+  </noscript>
   <script>
     var loadDeferredStyles = function () {
       var addStylesNode = document.getElementById("deferred-styles");
