@@ -3,25 +3,26 @@ layout: cv
 title: Ngoc L.B's CV
 ---
 # Ngoc L.B.
-A Fullstack Developer based at Saigon, VN.
+A Fullstack Developer and Freelancer
 
 <div id="webaddress">
-<i class="fa fa-envelope"></i> <a href="mailto:contact@ngoclb.com">contact@ngoclb.com</a>
+<i class="fa fa-map-marker"></i> <a href="mailto:contact@ngoclb.com">Saigon, Vietnam</a>
 |
-<i class="fa fa-github"></i> <a href="http://github.com/lbngoc">lbngoc</a>
+<i class="fa fa-whatsapp"></i> <a href="tel:84947002044">+84 947 00 2044</a>
 |
-<i class="fa fa-facebook"></i> <a href="http://facebook.com/ngoclb.blog">ngoclb.blog</a>
+<i class="fa fa-envelope-o"></i> <a href="mailto:contact@ngoclb.com">contact@ngoclb.com</a>
 </div>
 
-<i class="fa fa-download"></i> **[Download My Résumé](cv.pdf)**
+<i class="fa fa-thumbs-o-up"></i> **[Hire Me](//ngoclb.com/contact)**
+| <i class="fa fa-download"></i> **[Download My Résumé](cv.pdf)**
 
 ## About
 
-My full name is Luong Bao Ngoc, a full stack web developer with 5 years of experience in web technologies (MVC, PHP, WordPress) and over 2 years of experiences in mobile app development (Ionic, NativeScript), with good knowledge of _Database Design_, _Design Pattern_, _Object-Oriented Analysis and Design_.
+My name is Ngoc _(Luong-Bao Ngoc)_ and I'm a full stack web developer with 5 years of experience in web technologies _(MVC, PHP, WordPress)_ and over 2 years of experiences in mobile app development _(Ionic, NativeScript)_, with good knowledge of _Database Design_, _Design Pattern_, _Object-Oriented Analysis and Design_ (see all [my skills](#technical-skills)).
 
-I really like web standards and technologies, and I have spent most of my time to work with them (HTML5, Bootstrap, jQuery, Angular, Vue, etc…) respectively to cultivate deeper my knowledge in these standards. I always want to make all my projects more beautiful, useful and steady…
+I really like web standards and technologies, and I have spent most of my time to work with them (Angular, Vue, ReactJS, Bootstrap, jQuery, etc…) respectively to cultivate deeper my knowledge in these standards. I always want to make all my projects more modern, beautiful, useful and steady…
 
-At current, I am also the owner of an IT blog called **[ngoclb.com](//ngoclb.com)** and working as a part-time freelancer.
+At current, I am also the owner of [an IT blog](//ngoclb.com) and working as a part-time freelancer (browse all [my completed projects](//ngoclb.com/portfolio)).
 
 ## Employment
 
@@ -36,14 +37,18 @@ __TMA Solutions__ Junior Developer
 
 ## Technical skills
 
-* PHP
-* Java
+* PHP (incl. Yii, Laravel, Zend...)
 * WordPress, Drupal
-* Javascript (incl. Typescript, Angular)
+* NodeJS
+* Javascript (incl. Typescript, Babel, React, Angular)
 * HTML and CSS (incl. SASS, LESS)
-* Framework (.NET, Yii, Laravel, Rails, Zend...)
-* Bash
-* LaTeX
+* .NET Framework
+* MSSQL, MySQL, MongoDB, Firebase...
+* Ruby on Rails
+* Java (Android)
+* Apache / Nginx / LiteSpeed / IIS
+* Shell / Bash
+* LaTeX / Markdown
 * Git / Mercurial
 * UNIX
 * Docker, Vagrant
@@ -147,8 +152,9 @@ Bachelor Degree of Software Engineering
 ## Links
 
 <!-- fa are fontawesome, ai are academicons -->
-* <i class="fa fa-github"></i> <a href="http://github.com/lbngoc">Github</a><br />
+* <i class="fa fa-facebook"></i> <a href="http://facebook.com/ngoclb.blog">Facebook</a><br/>
 * <i class="fa fa-twitter"></i> <a href="http://twitter.com/ngoclb_com">Twitter</a><br />
+* <i class="fa fa-github"></i> <a href="http://github.com/lbngoc">Github</a><br />
 * <i class="fa fa-linkedin"></i> <a href="https://www.linkedin.com/in/ngoclb/">LinkedIn</a>
 * <i class="fa fa-stack-overflow"></i> <a href="https://stackoverflow.com/users/4715089/ng%E1%BB%8Dc-l%C6%B0%C6%A1ng">StackOverflow</a>
 

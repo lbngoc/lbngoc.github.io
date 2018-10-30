@@ -49,9 +49,6 @@ table {
 
 /* end of reset */
 
-/* faux Wikipedia logo font */
-@font-face { font-family: 'Linux Libertine'; font-style: normal; font-weight: 400; src: local('Linux Libertine'),url(//brick.a.ssl.fastly.net/fonts/linuxlibertine/400.woff) format('woff'); } .fa-wikipedia:before { font-family: 'Linux Libertine', 'Times New Roman', Times, serif; font-weight: 400; content: "W"; }
-
 body {
 	font: normal normal 400;
 	font-size: 10pt;
@@ -204,13 +201,6 @@ strong {
 }
 
 .footer {
-    -webkit-column-count: 3; /* Chrome, Safari, Opera */
-    -moz-column-count: 3; /* Firefox */
-    column-count: 3;
-		position: relative;
-		left: 33%;
-		margin-top: 2em;
-		margin-bottom: 3em;
-		margin-right: 0;
-		width: 65%;
+	display: none;
+	visibility: hidden;
 }

@@ -48,15 +48,10 @@ table {
 
 /* end of reset */
 
-/* faux Wikipedia logo font */
-@font-face { font-family: 'Linux Libertine'; font-style: normal; font-weight: 400; src: local('Linux Libertine'),url(//brick.a.ssl.fastly.net/fonts/linuxlibertine/400.woff) format('woff'); } .fa-wikipedia:before { font-family: 'Linux Libertine', 'Times New Roman', Times, serif; font-weight: 400; content: "W"; }
-
 body {
-  font: normal normal 400;
   font-size: 80%;
   line-height: 1.5em;
-  /* font-family: Verdana, sans-serif; */
-  font-family: Inconsolata, "Open sans", sans-serif;
+  font-family: 'Inconsolata', Inconsolata, Ubuntu, Helvetica, sans-serif;
   margin-top: 1em;
   margin-left: 1em;
 }
@@ -73,7 +68,7 @@ p {
 code {
   font: normal normal;
   font-size: 90%;
-  font-family: Inconsolata, monospace, sans-serif;
+  font-family: 'Inconsolata', Inconsolata, Ubuntu, Helvetica, sans-serif;
   color: #aaa;
 }
 
@@ -87,6 +82,10 @@ blockquote p code {
   left: auto;
 }
 
+p small, p small * {
+  font-size: .8em;
+}
+
 ul {
   position: relative;
   left: 25%;
@@ -97,7 +96,6 @@ ul {
   -webkit-columns: 2;
   -moz-columns: 2;
 }
-
 
 li {
   /* empty */
@@ -111,7 +109,7 @@ li ul {
 
 h1,h2,h3,h4 {
   font-weight: 700;
-  font-family: Inconsolata,Cousine,Verdana,sans-serif;
+  font-family: 'Inconsolata', Inconsolata, Ubuntu, Helvetica, sans-serif;
   width: 65%;
 }
 
@@ -123,9 +121,9 @@ h1 {
   position: relative;
   margin-top: 2em;
   left: 25%;
-  /* padding: .1rem 1rem; */
-    text-shadow: 1px 1px #fff,
-            1px 2px #ccc;
+  font-family: 'Tillana', cursive;
+    text-shadow: 1px 1px azure,
+            1px 1px #ccc;
 }
 
 h1+p {
@@ -175,7 +173,7 @@ a:hover {
   position: relative;
   margin-left: 25%;
   color: #aaa;
-  font-family: Inconsolata,Menlo,monospace,sans-serif;
+  font-family: 'Inconsolata', Inconsolata, Ubuntu, Helvetica, sans-serif;
   font-size: 80%;
 }
 
@@ -197,15 +195,16 @@ strong {
 }
 
 .footer {
-    -webkit-column-count: 3; /* Chrome, Safari, Opera */
-    -moz-column-count: 3; /* Firefox */
-    column-count: 3;
-    position: relative;
-    left: 25%;
-    margin-top: 2em;
-    margin-bottom: 7em;
-    margin-right: 0;
-    width: 65%;
+  position: relative;
+  left: 25%;
+  margin-top: 7em;
+  margin-bottom: .5em;
+  margin-right: 0;
+  width: 65%;
+  color: #aaa;
+}
+.footer, .footer a {
+  font-size: 100%;
 }
 
 #main {
@@ -230,16 +229,23 @@ html:before {
   background-color: azure;
 }
 
+/* Wide screen */
+@media only screen and (min-width: 1366px) {
+  #main { background-position-x: 20%; background-position-x: calc(25% - 75px); }
+  html:before { width: 34.5% }
+  p, ul, h1, .footer { left: 35%; width: 55% }
+  h2 , h3 { width: 25% }
+  ul { left: 35%}
+  #webaddress { margin-left: 35% }
+}
+
 @media only screen and (max-width: 1024px) {
-  p code {
-    left: -15%;
-  }
+  p code { left: -15%; }
 }
 @media only screen and (max-width: 768px) {
-  h2 {
-    margin-bottom: 1em;
-  }
-  p code {
-    left: -22%;
-  }
+  #main { background-position-x: 5px; }
+  h2, h3 { width: 19% }
+  h2 { font-size: 1.1em; margin-bottom: 1em; }
+  h3 { font-size: 1.05em }
+  p code { left: -22%; }
 }

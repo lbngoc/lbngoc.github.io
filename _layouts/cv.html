@@ -3,17 +3,19 @@
 
 <head>
   <meta charset=utf-8 />
-  <title>Ngoc L.B - Fullstack Developer and Freelancer at Saigon, VN</title>
+  <title>Ngoc L. | Freelance WordPress/Ionic/Angular Developer | HCMC, VN</title>
   <meta property="og:type" content="website" />
   <meta property="og:image" content="https://avatars1.githubusercontent.com/u/5821069" />
   <meta name="viewport" id="viewport">
-  <script type="text/javascript" src="media/head.js"></script>
-  <link href="media/cv-screen.css" type="text/css" rel="stylesheet" media="screen">
-  <link href="media/cv-print.css" type="text/css" rel="stylesheet" media="print">
-  <!-- imports -->
-  <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
-  <link href='//fonts.googleapis.com/css?family=Inconsolata:400,300,700' rel='stylesheet'
-    type='text/css'>
+  <script async type="text/javascript" src="media/head.js"></script>
+  <noscript id="deferred-styles">
+    <link href="media/cv-screen.css" type="text/css" rel="stylesheet" media="screen">
+    <link href="media/cv-print.css" type="text/css" rel="stylesheet" media="print">
+    <!-- imports -->
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+    <link href='//fonts.googleapis.com/css?family=Tillana:700|Inconsolata:400,700' rel='stylesheet'
+      type='text/css'>
+  </noscript>
 </head>
 
 <body>
@@ -23,17 +25,26 @@
     </div>
   </div>
 
-  <div class="footer"></div>
-  <!-- Global site tag (gtag.js) - Google Analytics -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-109033808-2"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
+  <div class="footer">
+    <i class="fa fa-code"></i> Built with <a href="https://jekyllrb.com/">Jekyll</a>
+    and <a href="https://vi.wikipedia.org/wiki/Markdown">Markdown</a>.
+    Hosting by <a href="https://github.com/lbngoc/lbngoc.github.io">Github</a>.
+  </div>
 
-    function gtag() {
-      dataLayer.push(arguments);
-    }
-    gtag('js', new Date());
-    gtag('config', 'UA-109033808-2');
+  <script>
+    var loadDeferredStyles = function () {
+      var addStylesNode = document.getElementById("deferred-styles");
+      var replacement = document.createElement("div");
+      replacement.innerHTML = addStylesNode.textContent;
+      document.body.appendChild(replacement)
+      addStylesNode.parentElement.removeChild(addStylesNode);
+    };
+    var raf = window.requestAnimationFrame || window.mozRequestAnimationFrame ||
+      window.webkitRequestAnimationFrame || window.msRequestAnimationFrame;
+    if (raf) raf(function () {
+      window.setTimeout(loadDeferredStyles, 0);
+    });
+    else window.addEventListener('load', loadDeferredStyles);
   </script>
 </body>
 
