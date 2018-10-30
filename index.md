@@ -6,7 +6,7 @@ title: Ngoc L.B's CV
 A Fullstack Developer and Freelancer
 
 <div id="webaddress">
-<i class="fa fa-map-marker"></i> <a href="mailto:contact@ngoclb.com">Saigon, Vietnam</a>
+<i class="fa fa-map-marker"></i> <a href="https://en.wikipedia.org/wiki/Ho_Chi_Minh_City">Saigon, Vietnam</a>
 |
 <i class="fa fa-whatsapp"></i> <a href="tel:84947002044">+84 947 00 2044</a>
 |
