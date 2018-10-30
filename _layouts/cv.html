@@ -3,31 +3,26 @@
 
 <head>
   <meta charset=utf-8 />
-  <title>Ngoc L. | Freelance WordPress/Ionic/Angular Developer | HCMC, VN</title>
+  <meta name="viewport" id="viewport">
   <meta property="og:type" content="website" />
   <meta property="og:image" content="https://avatars1.githubusercontent.com/u/5821069" />
-  <meta name="viewport" id="viewport">
+  <title>Ngoc L. | Freelance WordPress/Ionic/Angular Developer | HCMC, VN</title>
+  <link rel="canonical" href="https://luongbaongoc.com" />
+  <link rel="dns-prefetch" href="//maxcdn.bootstrapcdn.com/">
+  <link rel="dns-prefetch" href="//fonts.googleapis.com/">
+  <link rel="preconnect" href="https://maxcdn.bootstrapcdn.com" crossorigin>
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="preload" href="https://avatars1.githubusercontent.com/u/5821069?s=150" as="image">
+
+  <link href="media/cv-screen.css" type="text/css" rel="stylesheet" media="screen" />
+  <link href="media/cv-print.css" type="text/css" rel="stylesheet" media="print" />
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" />
+  <link href='https://fonts.googleapis.com/css?family=Tillana:700|Inconsolata:400,700' rel='stylesheet' type='text/css' />
+
   <script async type="text/javascript" src="media/head.js"></script>
-  <style type="text/css">
-    .fade-in {
-      opacity: 1;
-      animation-name: fadeInOpacity;
-      animation-iteration-count: 1;
-      animation-timing-function: ease-in;
-      animation-duration: 1.5s;
-    }
-    @keyframes fadeInOpacity {
-      0% {
-        opacity: 0;
-      }
-      100% {
-        opacity: 1;
-      }
-    }
-  </style>
 </head>
 
-<body>
+<body class="fade-in">
   <div id="main">
     <div id="content">
       {{ content }}
@@ -40,44 +35,5 @@
     Hosting by <a href="https://github.com/lbngoc/lbngoc.github.io">Github</a>.
   </div>
 
-  <!-- https://developers.google.com/speed/docs/insights/OptimizeCSSDelivery -->
-  <noscript id="deferred-styles">
-    <link href="media/cv-screen.css" type="text/css" rel="stylesheet" media="screen" />
-    <link href="media/cv-print.css" type="text/css" rel="stylesheet" media="print" />
-    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet" />
-  </noscript>
-  <script>
-    var loadDeferredStyles = function () {
-      var addStylesNode = document.getElementById("deferred-styles");
-      var replacement = document.createElement("div");
-      replacement.innerHTML = addStylesNode.textContent;
-      document.body.appendChild(replacement)
-      addStylesNode.parentElement.removeChild(addStylesNode);
-    };
-    var raf = window.requestAnimationFrame || window.mozRequestAnimationFrame ||
-      window.webkitRequestAnimationFrame || window.msRequestAnimationFrame;
-    if (raf) raf(function () {
-      window.setTimeout(loadDeferredStyles, 0);
-    });
-    else window.addEventListener('load', loadDeferredStyles);
-    document.getElementsByTagName("body")[0].className = "fade-in";
-  </script>
-  <!-- https://developers.google.com/fonts/docs/webfont_loader -->
-  <noscript>
-    <link href='//fonts.googleapis.com/css?family=Tillana:700|Inconsolata:400,700' rel='stylesheet' type='text/css' />
-  </noscript>
-  <script type="text/javascript">
-    WebFontConfig = {
-      google: { families: [ 'Tillana:700', 'Inconsolata:400,700' ] }
-    };
-    (function() {
-      var wf = document.createElement('script');
-      wf.src = 'https://ajax.googleapis.com/ajax/libs/webfont/1/webfont.js';
-      wf.type = 'text/javascript';
-      wf.async = 'true';
-      var s = document.getElementsByTagName('script')[0];
-      s.parentNode.insertBefore(wf, s);
-    })(); </script>
 </body>
-
 </html>
