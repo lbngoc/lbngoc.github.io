@@ -46,7 +46,6 @@
     <link href="media/cv-print.css" type="text/css" rel="stylesheet" media="print" />
     <!-- imports -->
     <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" />
-    <link href='//fonts.googleapis.com/css?family=Tillana:700|Inconsolata:400,700' rel='stylesheet' type='text/css' />
   </noscript>
   <script>
     var loadDeferredStyles = function () {
@@ -63,6 +62,22 @@
     });
     else window.addEventListener('load', loadDeferredStyles);
   </script>
+  <!-- https://developers.google.com/fonts/docs/webfont_loader -->
+  <noscript>
+    <link href='//fonts.googleapis.com/css?family=Tillana:700|Inconsolata:400,700' rel='stylesheet' type='text/css' />
+  </noscript>
+  <script type="text/javascript">
+    WebFontConfig = {
+      google: { families: [ 'Tillana:700', 'Inconsolata:400,700' ] }
+    };
+    (function() {
+      var wf = document.createElement('script');
+      wf.src = 'https://ajax.googleapis.com/ajax/libs/webfont/1/webfont.js';
+      wf.type = 'text/javascript';
+      wf.async = 'true';
+      var s = document.getElementsByTagName('script')[0];
+      s.parentNode.insertBefore(wf, s);
+    })(); </script>
 </body>
 
 </html>
