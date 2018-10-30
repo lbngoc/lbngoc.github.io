@@ -1,6 +1,6 @@
 ---
 layout: cv
-title: Ngoc L.B's CV
+title: Ngoc L. | Freelance WordPress/Ionic/Angular Developer | HCMC, VN
 ---
 # Ngoc L.B.
 A Fullstack Developer and Freelancer
