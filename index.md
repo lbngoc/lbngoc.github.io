@@ -56,15 +56,27 @@ __TMA Solutions__ Junior Developer
 
 ## Projects
 
+### Shell Kiosk
+
+This App run on the Kiosks that was placed at each Shell's gas station (U.S), that can allow user run a quick scan process and get their vehicle report details via email.
+
+> `Angular`, `Ionic`, `Cordova`, `Firebase`
+
+### RepairSolutions2
+
+The all-new RepairSolutions2 pairs seamlessly with our latest generation of Innova diagnostic tools, scan tools and code readers to deliver the only complete solution from diagnosis to fix. A new in-app feature helps users identify and purchase all needed parts instantly through your favorite online retailers.
+
+> `Angular`, `Ionic`, `Cordova`, `Firebase`
+
 ### AutoRater
 
 Auto Rater is a product of Innova, a prime manufacturer of diagnostic equipment for the automotive after-market. It can assist user on purchasing a new and/or used car. The user will connect this application with the Quicklink device in the car and input current odometer. Auto rater will analysis all report data of this car and display the ranking.
 
 > `AngularJS`, `Ionic`, `Cordova`
 
-### Repair Solutions
+### RepairSolutions
 
-Repair Solutions is a product of Innova, a prime manufacturer of diagnostic equipment for the automotive after-market. This application will connect to the Quicklink device in the car, then get all informations about this car and allows user find repair solutions for vehicle-related problems.
+RepairSolutions is a product of Innova, a prime manufacturer of diagnostic equipment for the automotive after-market. This application will connect to the Quicklink device in the car, then get all information about this car and allows user find repair solutions for vehicle-related problems.
 
 > `AngularJS`, `Ionic`, `Cordova`
 
@@ -78,7 +90,7 @@ With this app, a tenant will know how many customer in their store, what  re pro
 
 ### Storywoolf
 
-StoryWoolf is a new publishing platform and digital marketplace where user can buy and sell great writing. All users were both readers and authors. At StoryWoolf, authors receive a majority of the sale of their work and  eaders can know that they are directly supporting the art they love.
+StoryWoolf is a new publishing platform and digital marketplace where user can buy and sell great writing. All users were both readers and authors. At StoryWoolf, authors receive a majority of the sale of their work and readers can know that they are directly supporting the art they love.
 
 > `Ruby on Rails`, `Bootstrap`, `MongoDB`
 
@@ -160,4 +172,4 @@ Bachelor Degree of Software Engineering
 
 <!-- ### Footer
 
-Last updated: Oct 2018 -->
+Last updated: Oct 2019 -->
