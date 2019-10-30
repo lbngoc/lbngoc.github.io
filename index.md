@@ -18,7 +18,7 @@ A Fullstack Developer and Freelancer
 
 ## About
 
-My name is Ngoc _(Luong-Bao Ngoc)_ and I'm a full stack web developer with 5 years of experience in web technologies _(MVC, PHP, WordPress)_ and over 2 years of experiences in mobile app development _(Ionic, NativeScript)_, with good knowledge of _Database Design_, _Design Pattern_, _Object-Oriented Analysis and Design_ (see all [my skills](#technical-skills)).
+My name is Ngoc _(Luong-Bao Ngoc)_ and I'm a full stack web developer with 7 years of experience in web technologies _(MVC, PHP, WordPress)_ and over 3 years of experiences in mobile app development _(Ionic, NativeScript)_, with good knowledge of _Database Design_, _Design Pattern_, _Object-Oriented Analysis and Design_ (see all [my skills](#technical-skills)).
 
 I really like web standards and technologies, and I have spent most of my time to work with them (Angular, Vue, ReactJS, Bootstrap, jQuery, etc…) respectively to cultivate deeper my knowledge in these standards. I always want to make all my projects more modern, beautiful, useful and steady…
 
