@@ -1,6 +1,7 @@
 ---
 layout: cv
 title: Ngoc L. | Freelance WordPress/Ionic/Angular Developer | HCMC, VN
+last_modified_at: 2020-06-10
 ---
 # Ngoc L.B.
 A Fullstack Developer and Freelancer
@@ -10,15 +11,15 @@ A Fullstack Developer and Freelancer
 |
 <i class="fa fa-whatsapp"></i> <a href="tel:84947002044">+84 947 00 2044</a>
 |
-<i class="fa fa-envelope-o"></i> <a href="mailto:contact@ngoclb.com">contact@ngoclb.com</a>
+<i class="fa fa-envelope-o"></i> <a href="mailto:hi@ngoclb.com">hi@ngoclb.com</a>
 </div>
 
 <i class="fa fa-thumbs-o-up"></i> **[Hire Me](//ngoclb.com/contact)**
-| <i class="fa fa-download"></i> **[Download My Résumé](cv.pdf)**
+| <i class="fa fa-download"></i> **[Download My Résumé](CV_NgocLB_202006.pdf)**
 
 ## About
 
-My name is Ngoc _(Luong-Bao Ngoc)_ and I'm a full stack web developer with 7 years of experience in web technologies _(MVC, PHP, WordPress)_ and over 3 years of experiences in mobile app development _(Ionic, NativeScript)_, with good knowledge of _Database Design_, _Design Pattern_, _Object-Oriented Analysis and Design_ (see all [my skills](#technical-skills)).
+My name is Ngoc _(Luong-Bao Ngoc)_ and I'm a full stack web developer with 7 years of experience in web technologies _(MVC, PHP, WordPress)_ and over 4 years of experiences in mobile app development _(Ionic, NativeScript)_, with good knowledge of _Database Design_, _Design Pattern_, _Object-Oriented Analysis and Design_ (see all [my skills](#technical-skills)).
 
 I really like web standards and technologies, and I have spent most of my time to work with them (Angular, Vue, ReactJS, Bootstrap, jQuery, etc…) respectively to cultivate deeper my knowledge in these standards. I always want to make all my projects more modern, beautiful, useful and steady…
 
@@ -26,7 +27,7 @@ At current, I am also the owner of [an IT blog](//ngoclb.com) and working as a p
 
 ## Employment
 
-`2016-`
+`2016-202?`
 __CarMD.com Corp.__ Mobile Developer
 
 `2014-2016`
@@ -37,6 +38,7 @@ __TMA Solutions__ Junior Developer
 
 ## Technical skills
 
+* Ionic Framework
 * PHP (incl. Yii, Laravel, Zend...)
 * WordPress, Drupal
 * NodeJS
@@ -47,7 +49,7 @@ __TMA Solutions__ Junior Developer
 * Ruby on Rails
 * Java (Android)
 * Apache / Nginx / LiteSpeed / IIS
-* Shell / Bash
+* Shell / Bash scripts
 * LaTeX / Markdown
 * Git / Mercurial
 * UNIX
@@ -118,7 +120,17 @@ Quran is a book reader application, using local data (images + music). It like a
 
 > `Java`, `Android`
 
-## Open Source Projects
+## Other Projects
+
+### Ionic POS App
+
+A completed POS app for mobile platform (both iOS & Android), build with Ionic 4 (Angular 8) - manage Orders, Menu items & print bills via ESCPOS printers by Bluetooth BLE connection
+
+_Demo: [https://www.youtube.com/watch?v=mTEK_snO4T8](https://www.youtube.com/watch?v=mTEK_snO4T8)_
+_Documentation: [https://posapp.ngoclb.com](https://posapp.ngoclb.com)_
+_Codecanyon: [https://codecanyon.net/item/ionic-pos-app-manage-orders-menu-items-print-bills/25773625](Ionic POS App - Manage Orders, Menu Items & Print Bills)_
+
+> `Ionic`, `Angular`, `Cordova`, `BLE`
 
 ### Press2Blogger
 

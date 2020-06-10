@@ -91,7 +91,7 @@ code {
 
 p code {
   position: absolute;
-  left: -12%;
+  left: -18%;
 }
 
 blockquote p code {
@@ -162,7 +162,7 @@ h2 {
   position: relative;
   /*top: 1.4em;*/
   text-align: right;
-  width: 15%;
+  width: 20%;
 }
 
 h3 {
@@ -172,7 +172,7 @@ h3 {
   position: relative;
   top: 1em;
   text-align: right;
-  width: 15%;
+  width: 20%;
 }
 
 a {
@@ -219,9 +219,15 @@ strong {
   margin-right: 0;
   width: 65%;
   color: #aaa;
+  font-size: 100%
 }
-.footer, .footer a {
+
+.footer * {
   font-size: 100%;
+}
+
+.footer time {
+  border-bottom: 1px dotted gray;
 }
 
 #main {
@@ -248,16 +254,19 @@ html:before {
 
 /* Wide screen */
 @media only screen and (min-width: 1366px) {
-  #main { background-position-x: 20%; background-position-x: calc(25% - 75px); }
+  #main { background-position-x: 20%; background-position-x: calc(30% - 105px); }
   html:before { width: 34.5% }
   p, ul, h1, .footer { left: 35%; width: 55% }
-  h2 , h3 { width: 25% }
+  h2 , h3 { width: 30% }
+  p code { left: -16.5% }
   ul { left: 35%}
   #webaddress { margin-left: 35% }
 }
 
 @media only screen and (max-width: 1024px) {
-  p code { left: -15%; }
+  #main { background-position-x: calc(15% - 75px); }
+  h2, h3 { width: 20% }
+  p code { left: -18%; }
 }
 @media only screen and (max-width: 768px) {
   #main { background-position-x: 5px; }
