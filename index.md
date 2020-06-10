@@ -126,9 +126,9 @@ Quran is a book reader application, using local data (images + music). It like a
 
 A completed POS app for mobile platform (both iOS & Android), build with Ionic 4 (Angular 8) - manage Orders, Menu items & print bills via ESCPOS printers by Bluetooth BLE connection
 
-_Demo: [https://www.youtube.com/watch?v=mTEK_snO4T8](https://www.youtube.com/watch?v=mTEK_snO4T8)_
-_Documentation: [https://posapp.ngoclb.com](https://posapp.ngoclb.com)_
-_Codecanyon: [https://codecanyon.net/item/ionic-pos-app-manage-orders-menu-items-print-bills/25773625](Ionic POS App - Manage Orders, Menu Items & Print Bills)_
+> _Demo: [https://www.youtube.com/watch?v=mTEK_snO4T8](https://www.youtube.com/watch?v=mTEK_snO4T8)_
+> _Documentation: [https://posapp.ngoclb.com](https://posapp.ngoclb.com)_
+> _Codecanyon: [https://codecanyon.net/item/ionic-pos-app-manage-orders-menu-items-print-bills/25773625](https://codecanyon.net/item/ionic-pos-app-manage-orders-menu-items-print-bills/25773625)_
 
 > `Ionic`, `Angular`, `Cordova`, `BLE`
 
@@ -136,7 +136,7 @@ _Codecanyon: [https://codecanyon.net/item/ionic-pos-app-manage-orders-menu-items
 
 Press2Blogger is a node command line application (CLI) that could help you move or backup your current website from Wordpress to Blogger.
 
-_npm: [https://www.npmjs.com/package/press2blogger](https://www.npmjs.com/package/press2blogger)_
+> _npm: [https://www.npmjs.com/package/press2blogger](https://www.npmjs.com/package/press2blogger)_
 
 > `Node`, `oclif`, `Google SDK`
 
@@ -144,7 +144,7 @@ _npm: [https://www.npmjs.com/package/press2blogger](https://www.npmjs.com/packag
 
 WP PleaseWait is a wordpress plugin for [PleaseWait](https://pathgather.github.io/please-wait) library to display beautiful loading screen for your WordPress site.
 
-_Github: [https://github.com/lbngoc/wp-please-wait](https://github.com/lbngoc/wp-please-wait)_
+> _Github: [https://github.com/lbngoc/wp-please-wait](https://github.com/lbngoc/wp-please-wait)_
 
 > `WordPress`
 
@@ -152,7 +152,7 @@ _Github: [https://github.com/lbngoc/wp-please-wait](https://github.com/lbngoc/wp
 
 This is an extension for Google Chrome, allow user post a message with link or media attachments to multiple groups on Facebook.
 
-_Demo: [https://www.youtube.com/watch?v=sn0YlWjR7yI](https://www.youtube.com/watch?v=sn0YlWjR7yI)_
+> _Demo: [https://www.youtube.com/watch?v=sn0YlWjR7yI](https://www.youtube.com/watch?v=sn0YlWjR7yI)_
 
 > `Chrome Extension`, `Facebook SDK`
 
@@ -160,7 +160,7 @@ _Demo: [https://www.youtube.com/watch?v=sn0YlWjR7yI](https://www.youtube.com/wat
 
 A simple project to display release versions of a mobile app, built with Vue.js and Semantic UI
 
-_Demo: [https://lbngoc.github.io/simple-layout-app-release-packages](https://lbngoc.github.io/simple-layout-app-release-packages)_
+> _Demo: [https://lbngoc.github.io/simple-layout-app-release-packages](https://lbngoc.github.io/simple-layout-app-release-packages)_
 
 > `Vue`, `Semantic UI`
 

@@ -94,9 +94,17 @@ p code {
   left: -18%;
 }
 
+blockquote p * {
+  font-size: 90%;
+}
+
 blockquote p code {
   position: initial;
   left: auto;
+}
+
+blockquote p em {
+  display: block;
 }
 
 p small, p small * {

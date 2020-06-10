@@ -61,16 +61,16 @@ body {
 
 p {
 	position: relative;
-	left: 28%;
+	left: 38%;
 	/* margin-bottom: 0.2em; */
 	margin-right: 0;
-	width: 70%;
+	width: 60%;
 }
 
 code {
 	font: normal normal;
-	font-size: 70%;
-	font-family: Menlo, monospace,s ans-serif;
+	font-size: 80%;
+	font-family: monospace,sans-serif;
 	color: #444;
 }
 
@@ -85,15 +85,22 @@ blockquote p code {
 	color: #39f;
 }
 
+blockquote p em {
+	display: block;
+	font: normal normal;
+	font-size: 80%;
+	font-family: monospace,sans-serif;
+}
+
 ul {
 	position: relative;
-	left: 28%;
-	width: 65%;
+	left: 38%;
+	width: 62%;
 	margin-bottom: 1em;
 	margin-top: 2em;
-	columns: 3;
-	-webkit-columns: 3;
-	-moz-columns: 3;
+	columns: 2;
+	-webkit-columns: 2;
+	-moz-columns: 2;
 }
 
 li {
@@ -108,23 +115,25 @@ li ul {
 
 h1,h2,h3,h4 {
 	font-weight: 700;
-	font-family: Cousine,Verdana,sans-serif;
-	width: 65%;
+	font-family: Menlo,monospace,sans-serif;
+	width: 60%;
 }
 
 h1 {
 	color: #222;
+	font-family: Menlo,monospace,sans-serif;
 	font-weight: 700;
 	text-align: left;
 	font-size: 2.2em;
 	line-height: 1.2em;
 	position: relative;
-	left: 28%;
+	left: 38%;
 }
 
 h1+p {
 	/*subtitle*/
 	font-style: normal;
+	font-family: Menlo,monospace,sans-serif;
 	font-weight: 500;
 	font-size: 120%;
 	line-height: 2em;
@@ -141,7 +150,7 @@ h2 {
 	position: relative;
 	top: 1.5em;
 	text-align: right;
-	width: 23.5%;
+	width: 35%;
 }
 
 h2+p {
@@ -154,13 +163,14 @@ h3 {
 	line-height: 1.5em;
 	color: #444;
 	position: relative;
-	top: 1.6em;
+	top: 1.3em;
 	text-align: right;
-	width: 23.5%;
+	width: 35%;
 }
 
 a {
 	color: inherit;
+	font-family: monospace,sans-serif;
 	text-decoration:none
 }
 
@@ -170,11 +180,11 @@ a:hover {
 
 #webaddress {
  	margin-top: 0em;
-	position: relative;
-	left: 28%;
-	color: #ccc;
-	font-family: Menlo,monospace,sans-serif;
-	font-size: 80%;
+ 	position: relative;
+ 	left: 38%;
+ 	color: #ccc;
+ 	font-family: Menlo,monospace,sans-serif;
+ 	font-size: 80%;
 }
 
 #webaddress a {
@@ -188,6 +198,7 @@ a:hover {
 
 em {
 	font-style: normal;
+	font-family: monospace,sans-serif;
 	color: #2d4e5e
 }
 
