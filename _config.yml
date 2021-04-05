@@ -1,4 +1,4 @@
-markdown:   kramdown
+markdown: kramdown
 plugins:
   - jekyll-sitemap
   - jekyll-last-modified-at

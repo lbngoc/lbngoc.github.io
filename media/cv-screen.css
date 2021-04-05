@@ -1,6 +1,6 @@
 /* http://meyerweb.com/eric/tools/css/reset/
-   v2.0 | 20110126
-   License: none (public domain)
+  v2.0 | 20110126
+  License: none (public domain)
 */
 
 html, body, div, span, applet, object, iframe,
@@ -19,7 +19,7 @@ time, mark, audio, video {
   margin: 0;
   padding: 0;
   border: 0;
-  font-size: 16px;
+  font-size: 18px;
   vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
@@ -66,11 +66,11 @@ table {
 }
 
 body {
-  font-size: 80%;
   line-height: 1.5em;
-  font-family: 'Inconsolata', Inconsolata, Ubuntu, Helvetica, sans-serif;
+  font-family: "Gloria Hallelujah", Inconsolata, Ubuntu, Helvetica, sans-serif;
   margin-top: 1em;
   margin-left: 1em;
+  background-color: #f4ffb5;
 }
 
 p {
@@ -84,8 +84,8 @@ p {
 
 code {
   font: normal normal;
-  font-size: 90%;
-  font-family: 'Inconsolata', Inconsolata, Ubuntu, Helvetica, sans-serif;
+  font-size: .99em;
+  font-family: "Indie Flower", Inconsolata, Ubuntu, Helvetica, sans-serif;
   color: #aaa;
 }
 
@@ -95,7 +95,7 @@ p code {
 }
 
 blockquote p * {
-  font-size: 90%;
+  font-size: .99em;
 }
 
 blockquote p code {
@@ -134,7 +134,7 @@ li ul {
 
 h1,h2,h3,h4 {
   font-weight: 700;
-  font-family: 'Inconsolata', Inconsolata, Ubuntu, Helvetica, sans-serif;
+  font-family: "Patrick Hand SC", cursive;
   width: 65%;
 }
 
@@ -146,9 +146,7 @@ h1 {
   position: relative;
   margin-top: 2em;
   left: 25%;
-  font-family: 'Tillana', cursive;
-    text-shadow: 1px 1px azure,
-            1px 1px #ccc;
+  text-shadow: 1px 1px #ff7700, 1px 1px #ccc;
 }
 
 h1+p {
@@ -198,8 +196,7 @@ a:hover {
   position: relative;
   margin-left: 25%;
   color: #aaa;
-  font-family: 'Inconsolata', Inconsolata, Ubuntu, Helvetica, sans-serif;
-  font-size: 80%;
+  font-family: "Indie Flower", Inconsolata, Ubuntu, Helvetica, sans-serif;
 }
 
 #webaddress a {
@@ -244,12 +241,12 @@ strong {
   background-image: url("https://avatars1.githubusercontent.com/u/5821069?s=150");
   /* background-size: 15% auto; */
   background-position: 5.5% 0;
-  background-position: calc(15% - 75px) 0;
+  background-position: 10% 0; /* calc(15% - 75px) 0;*/
   background-repeat: no-repeat;
   z-index: 999;
 }
 
-html:before {
+html::before {
   position: fixed;
   display: block;
   content: ' ';
@@ -257,7 +254,7 @@ html:before {
   left: 0;
   width: 24.5%;
   height: 100%;
-  background-color: azure;
+  background-color: #FFFFFF;
 }
 
 /* Wide screen */

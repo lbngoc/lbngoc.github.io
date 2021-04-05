@@ -3,7 +3,16 @@ services:
   site:
     image: jekyll/jekyll
     command: 'jekyll serve'
+    container_name: luongbaongoc_com
     ports:
       - "4000:4000"
     volumes:
       - "./:/srv/jekyll"
+    ### Use custom domain with DevBox: https://github.com/lbngoc/DevBox
+    # network:
+    #   - proxy
+    # labels:
+    #   - "traefik.enable=true"
+    #   - "traefik.http.routers.luongbaongoc.rule=Host(`luongbaongoc.com`)"
+    #   - "traefik.http.routers.luongbaongoc.tls=true"
+    #   - "traefik.http.services.mailhog.loadbalancer.server.port=4000"

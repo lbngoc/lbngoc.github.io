@@ -1,3 +1,5 @@
 /_site
 /CNAME
+.jekyll-cache
+*.lock
 docker-compose.override.yml
