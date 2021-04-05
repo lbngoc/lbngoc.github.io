@@ -86,7 +86,7 @@ code {
   font: normal normal;
   font-size: .99em;
   font-family: "Indie Flower", Inconsolata, Ubuntu, Helvetica, sans-serif;
-  color: #aaa;
+  color: #888;
 }
 
 p code {
@@ -195,7 +195,7 @@ a:hover {
   margin-bottom: 0.8em;
   position: relative;
   margin-left: 25%;
-  color: #aaa;
+  color: #888;
   font-family: "Indie Flower", Inconsolata, Ubuntu, Helvetica, sans-serif;
 }
 
@@ -223,8 +223,9 @@ strong {
   margin-bottom: .5em;
   margin-right: 0;
   width: 65%;
-  color: #aaa;
-  font-size: 100%
+  color: #888;
+  font-size: .9em;
+  font-family: "Indie Flower", Inconsolata, Ubuntu, Helvetica, sans-serif;
 }
 
 .footer * {
