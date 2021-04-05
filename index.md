@@ -1,7 +1,7 @@
 ---
 layout: cv
 title: Ngoc L. | Freelance WordPress/Ionic/Angular Developer | HCMC, VN
-# last_modified_at: 2020-06-10
+last_modified_at: 2021-03-30 # hardcode for localhost, changed on Github page
 ---
 # Ngoc L.B.
 A Fullstack Developer and Freelancer
@@ -203,6 +203,4 @@ Bachelor Degree in Software Engineering
 * <i class="fa fa-github"></i> <a href="http://github.com/lbngoc">Github</a><br />
 * <i class="fa fa-stack-overflow"></i> <a href="https://stackoverflow.com/users/4715089/ng%E1%BB%8Dc-l%C6%B0%C6%A1ng">StackOverflow</a>
 
-<!-- ### Footer
-
-Last updated: April 2021 -->
+<!-- ### Footer -->
