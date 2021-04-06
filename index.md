@@ -1,7 +1,7 @@
 ---
 layout: cv
 title: Ngoc L. | Freelance WordPress/Ionic/Angular Developer | HCMC, VN
-last_modified_at: 2021-03-30 # hardcode for localhost, changed on Github page
+last_modified_at: 2021-04-04 # hardcode for localhost, changed on Github page
 ---
 # Ngoc L.B.
 A Fullstack Developer and Freelancer
@@ -12,7 +12,7 @@ A Fullstack Developer and Freelancer
 <i class="fa fa-whatsapp"></i> <a href="tel:84947002044">+84 947 00 2044</a>
 |
 <i class="fa fa-envelope-o"></i> <a href="mailto:hi@ngoclb.com">hi@ngoclb.com</a><br/><strong>
-<i class="fa fa-thumbs-o-up"></i> <a href="//ngoclb.com/contact"><u>Hire Me</u></a>
+<i class="fa fa-thumbs-o-up"></i> <a href="//www.upwork.com/o/profiles/users/~01618301d53d7fe837/"><u>Hire Me</u></a>
 | <i class="fa fa-download"></i> <a href="CV_NgocLB_202104.pdf"><u>Download</u></a></strong> or <i class="fa fa-print"></i> <a id="print-cv" href="javascript:print()"><u>Print</u></a> my Résumé
 </div>
 
@@ -135,6 +135,8 @@ This project builds a small system that has 2 parts:
 
 *Client:* could log in to the system and manage their assigned fountain with all featured that provided (lock/unlock a fountain, play song, change the song or it controlled styles)
 
+> `Vue`, `Strapi`, `Node`, `Websocket`
+
 ### MGG·©©
 
 A website that collects and display voucher, coupon codes daily from some common providers in Vietnam. It could help people who love online shopping save a lot of money!
@@ -164,9 +166,10 @@ Press2Blogger is a node command-line application (CLI) that could help you move 
 
 This is just a WordPress plugin built from the [PleaseWait](https://pathgather.github.io/please-wait) library, which could help to display a beautiful loading screen for the WordPress site.
 
+> _WordPress: [https://wordpress.org/plugins/wp-pleasewait/](https://wordpress.org/plugins/wp-pleasewait/)_
 > _Github: [https://github.com/lbngoc/wp-please-wait](https://github.com/lbngoc/wp-please-wait)_
 
-> `WordPress`
+> `PHP`, `Javascript`
 
 ### post2Groups (FB MassPost)
 
@@ -180,7 +183,7 @@ post2Groups is an extension for Google Chrome, allows users to post a message wi
 
 A simple project to display release versions of a mobile app, built with Vue.js and Semantic UI
 
-> _Demo: [https://lbngoc.github.io/simple-layout-app-release-packages](https://lbngoc.github.io/simple-layout-app-release-packages)_
+> _Demo: [https://luongbaongoc.com/simple-layout-app-release-packages](https://lbngoc.github.io/simple-layout-app-release-packages)_
 
 > `Vue`, `Semantic UI`
 

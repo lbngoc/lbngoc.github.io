@@ -5,7 +5,7 @@
 
 @page {
   size: A4;
-  margin: 17mm 12mm 12mm 12mm;
+  margin: 20mm 12mm 15mm 12mm;
 }
 
 html, body, div, span, applet, object, iframe,
@@ -184,12 +184,12 @@ a:hover {
 }
 
 #webaddress {
- 	margin-top: 0em;
- 	position: relative;
- 	left: 38%;
- 	color: #ccc;
- 	font-family: Menlo,monospace,sans-serif;
- 	font-size: 80%;
+	margin-top: 0em;
+	position: relative;
+	left: 38%;
+	color: #ccc;
+	font-family: Menlo,monospace,sans-serif;
+	font-size: 80%;
 }
 
 #webaddress a {
@@ -222,6 +222,17 @@ strong {
 }
 
 .footer {
-	display: none;
-	visibility: hidden;
+	font-size: 0;
+	text-align: right;
+	font-style: italic;
+	margin-top: 50px;
+}
+
+.footer time {
+	font-size: 12px;
+}
+
+.footer time::before {
+	display: inline-block;
+	content: 'Last updated: ';
 }
