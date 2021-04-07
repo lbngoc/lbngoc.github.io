@@ -149,7 +149,7 @@ A completed POS app for the mobile platform (both iOS & Android), build with Ion
 
 > _Demo: [https://www.youtube.com/watch?v=mTEK_snO4T8](https://www.youtube.com/watch?v=mTEK_snO4T8)_
 > _Documentation: [https://posapp.ngoclb.com](https://posapp.ngoclb.com)_
-> _Codecanyon: [https://ngoclb.com/themeforest/item/ionic-pos-app-manage-orders-menu-items-print-bills/25773625](https://codecanyon.net/item/ionic-pos-app-manage-orders-menu-items-print-bills/25773625)_
+> _Source Code: [https://ngoclb.com/ionic-pos-app-src](https://ngoclb.com/ionic-pos-app-src)_
 
 > `Ionic`, `Angular`, `Cordova`, `BLE`
 
