@@ -46,11 +46,12 @@ __TMA Solutions__ Junior Developer
 * .NET Framework
 * MSSQL, MySQL, MongoDB, Firebase...
 * Ruby on Rails
+* Websocket
 * Java (Android)
 * Apache / Nginx / LiteSpeed / IIS
 * Shell / Bash scripts
 * LaTeX / Markdown
-* Git / Mercurial
+* Git / SVN / Mercurial
 * UNIX
 * Docker, Vagrant
 * AWS
@@ -141,14 +142,14 @@ This project builds a small system that has 2 parts:
 
 A website that collects and display voucher, coupon codes daily from some common providers in Vietnam. It could help people who love online shopping save a lot of money!
 
-> `WordPress`, `Bulma`, `Bash`
+> `WordPress`, `Bulma`, `Bash`, `ElasticSearch`
 
 ### Ionic POS App
 
 A completed POS app for the mobile platform (both iOS & Android), build with Ionic 4 (Angular 8) - manage Orders, Menu items & print bills via ESCPOS printers by Bluetooth BLE connection
 
 > _Demo: [https://www.youtube.com/watch?v=mTEK_snO4T8](https://www.youtube.com/watch?v=mTEK_snO4T8)_
-> _Documentation: [https://posapp.ngoclb.com](https://posapp.ngoclb.com)_
+> _Documentation: [https://posapp.ngoclb.com](/ionic-pos-app)_
 > _Source Code: [https://ngoclb.com/ionic-pos-app-src](https://ngoclb.com/ionic-pos-app-src)_
 
 > `Ionic`, `Angular`, `Cordova`, `BLE`
@@ -183,7 +184,7 @@ post2Groups is an extension for Google Chrome, allows users to post a message wi
 
 A simple project to display release versions of a mobile app, built with Vue.js and Semantic UI
 
-> _Demo: [https://luongbaongoc.com/simple-layout-app-release-packages](https://lbngoc.github.io/simple-layout-app-release-packages)_
+> _Demo: [https://lbngoc.github.io/simple-layout-app-release-packages](/simple-layout-app-release-packages)_
 
 > `Vue`, `Semantic UI`
 
